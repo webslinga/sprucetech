@@ -45,6 +45,17 @@ body {
   width: 100%;
 }
 
+a {
+  color: $primary-green;
+  font-family: 'Selawik Semibold';
+  text-decoration: underline;
+
+  &:hover {
+    display: inline-block;
+    transform: scale(1.02);
+  }
+}
+
 h1,h2,h3,h4 {
   color: $primary-blue;
 }
