@@ -2,6 +2,34 @@
 @import 'modules/bootstrap';
 //@import 'modules/mixins';
 
+@font-face {
+font-family: 'Selawik Regular';
+font-style: normal;
+font-weight: normal;
+src: url('/fonts/selawk.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Selawik Light';
+font-style: normal;
+font-weight: normal;
+src: url('/fonts/selawkl.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Selawik Semibold';
+font-style: normal;
+font-weight: normal;
+src: url('/fonts/selawksb.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Selawik Bold';
+font-style: normal;
+font-weight: normal;
+src: url('/fonts/selawkb.woff') format('woff');
+}
+
 html {
   font-size: 10px; //use this to scale
   height: 100%;
@@ -9,10 +37,30 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
+  font-family: 'Selawik Regular';
+  font-size: 2.2rem;
   height: 100%;
   margin: 0;
   padding: 0;
   width: 100%;
+}
+
+h1 {
+  font-family: 'Selawik Bold';
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-family: 'Selawik Semibold';
+  font-size: 3.7rem;
+}
+
+h3 {
+  font-family: 'Selawik Bold';
+  font-size: 3.2rem;
+}
+
+h4 {
+  font-family: 'Selawik Semibold';
+  font-size: 2.4rem;
 }
