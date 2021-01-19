@@ -1,4 +1,16 @@
 .spruce-navigation {
+  .navbar-toggler {
+    border: .4rem solid $primary-blue;
+    border-radius: 1rem;
+    margin: 2rem;
+    width: 12rem;
+
+    .navbar-toggler-icon {
+      color: $primary-blue;
+      font-size: 4rem;
+    }
+  }
+
   li {
     &.nav-item {
       margin-left: 2.5rem;
