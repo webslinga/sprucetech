@@ -11,31 +11,34 @@
     }
   }
 
-  li {
-    &.nav-item {
-      margin-left: 2.5rem;
+  .navbar-nav {
+    li {
+      &.nav-item {
+        margin-left: 2.5rem;
 
-      &.active {
-        border-top: .4rem solid $primary-green;
-        margin-top: -.4rem;
-      }
-    }
-
-    a {
-      &.nav-link {
-        color: $primary-blue !important;
-        font-size: 2.4rem;
-        text-transform: uppercase;
-
-        &:hover {
-          color: $secondary-blue !important;
+        &.active {
+          a {
+            color: $primary-green;
+          }
         }
       }
 
-      img {
-        height: 4rem;
-        vertical-align: unset;
-        width: 4rem;
+      a {
+        &.nav-link {
+          color: $primary-blue;
+          font-size: 2.4rem;
+          text-transform: uppercase;
+
+          &:hover {
+            color: $secondary-blue !important;
+          }
+        }
+
+        img {
+          height: 4rem;
+          vertical-align: unset;
+          width: 4rem;
+        }
       }
     }
   }

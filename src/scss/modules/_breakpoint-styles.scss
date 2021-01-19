@@ -8,6 +8,21 @@
   html {
     font-size: 6px; //use this to scale
   }
+
+  .spruce-navigation {
+    li {
+      &.nav-item {
+        &.active {
+          margin-top: -.4rem;
+
+          a {
+            border-top: .4rem solid $primary-green;
+            color: $primary-blue !important;
+          }
+        }
+      }
+    }
+  }
 }
 
 @include media-breakpoint-up(xxl) {
