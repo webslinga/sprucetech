@@ -1,0 +1,46 @@
+.spruce-navigation {
+  li {
+    &.nav-item {
+      margin-left: 2.5rem;
+
+      &.active {
+        border-top: .4rem solid $primary-green;
+        margin-top: -.4rem;
+      }
+    }
+
+    a {
+      &.nav-link {
+        color: $primary-blue !important;
+        font-size: 2.4rem;
+        text-transform: uppercase;
+
+        &:hover {
+          color: $secondary-blue !important;
+        }
+      }
+
+      img {
+        height: 4rem;
+        vertical-align: unset;
+        width: 4rem;
+      }
+    }
+  }
+}
+
+.social-block {
+  ul {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      margin-left: 2.5rem;
+
+      img {
+        height: 6rem;
+        width: 6rem;
+      }
+    }
+  }
+}
