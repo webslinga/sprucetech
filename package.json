@@ -9,12 +9,15 @@
   "author": "Zaman Harris",
   "license": "ISC",
   "devDependencies": {
-    "bootstrap": "^4.1.1",
-    "popper.js": "^1.14.3",
+    "bootstrap": "^5.0.0-beta1",
     "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^3.0.0"
+    "gulp-sourcemaps": "^3.0.0",
+    "popper.js": "^1.14.3"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
   }
 }
