@@ -1,0 +1,51 @@
+.carousel-block {
+  background-color: $primary-blue;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+
+  .carousel-indicators {
+    bottom: -7rem;
+  }
+
+  img {
+    max-width: 70rem;
+  }
+
+  .carousel-event-card {
+    background-color: $white;
+    border-top: .5rem solid $primary-green;
+    margin: 0 auto;
+    max-width: 70rem;
+    text-align: left;
+
+    h3 {
+      margin-top: 5.4rem;
+    }
+
+    .event-date {
+      color: $primary-blue;
+      margin: 2rem auto;
+      max-width: 12rem;
+      text-align: center;
+
+      .month {
+        display: block;
+        font-family: 'Selawik Bold';
+        text-transform: uppercase;
+      }
+
+      .date {
+        display: block;
+        border: .2rem solid $primary-green;
+        font-size: 6rem;
+        margin-top: 1rem;
+      }
+
+      .time {
+        display: block;
+        background-color: $primary-green;
+        color: $white;
+      }
+    }
+  }
+}
