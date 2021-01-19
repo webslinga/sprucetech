@@ -1,0 +1,33 @@
+.footer {
+  background-color: $primary-blue;
+}
+
+.footer-block {
+  border-top: .5rem solid $primary-green;
+  padding-top: 6rem;
+  padding-bottom: 12rem;
+
+  & > div:first-child {
+    border-bottom: 1px solid $white;
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  ul {
+    &.list-footer-links {
+      list-style-type: none;
+      margin-top: 5rem;
+
+      li {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+}

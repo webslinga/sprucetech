@@ -1,0 +1,39 @@
+.engagement-block {
+  background-color: $black;
+  background: url('/images/prospectpark-e1497909025369.jpg') center center;
+  padding-bottom: 12rem;
+  padding-top: 12rem;
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    background-color: $primary-blue;
+    bottom: 0;
+    content: '';
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  ul {
+    &.list-social {
+      list-style-type: none;
+    }
+
+    li {
+      display: inline-block;
+
+      img {
+        height: 8rem;
+        width: 8rem;
+      }
+    }
+  }
+
+  form, .list-social {
+    position: relative;
+    z-index: 10;
+  }
+}
