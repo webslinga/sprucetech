@@ -1,5 +1,11 @@
 @include media-breakpoint-up(sm) {
   html {
+    font-size: 10px; //use this to scale
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
     font-size: 6px; //use this to scale
   }
 }
