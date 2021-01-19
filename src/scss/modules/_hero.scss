@@ -1,0 +1,26 @@
+.hero-block {
+  background: url('/images/bellandin_cleftridgespan_arch_snow_beauty.jpg') center center;
+  border-top: .5rem solid $primary-green;
+  border-bottom: .5rem solid $primary-green;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    background-color: $primary-blue;
+    bottom: 0;
+    content: '';
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  h1 {
+    color: $white;
+    margin: 12rem auto;
+    position: relative;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    z-index: 10;
+  }
+}
