@@ -2,12 +2,38 @@
   background-color: $white;
   border-top: .5rem solid $primary-green;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  height: 42rem;
   margin: 3rem 1rem;
-  // max-width: 60rem;
   text-align: left;
 
   h3 {
-    margin-top: 5.4rem;
+    margin: 3rem auto 2rem;
+  }
+
+  h4 {
+    &.day {
+      margin-top: 3.8rem;
+    }
+    &.location {
+      margin-bottom: 1rem;
+      text-transform: none;
+    }
+  }
+
+  .learn-more-link {
+    display: inline-block;
+
+    &::after {
+      background: url('/images/icons/005-small-arrow-right-green@2x.png') no-repeat;
+      background-size: contain;
+      content: '';
+      cursor: pointer;
+      display: inline-block;
+      height: 2.2rem;
+      margin-left: .8rem;
+      vertical-align: -.5rem;
+      width: 2rem;
+    }
   }
 
   .event-date {
@@ -34,5 +60,21 @@
       background-color: $primary-green;
       color: $white;
     }
+  }
+
+  &.paid {
+    @include event-card-icon('/images/icons/052-paid-event-icon-green@2x.png');
+  }
+
+  &.free {
+    @include event-card-icon('/images/icons/054-free-event-green@2x.png');
+  }
+
+  &.rsvp {
+    @include event-card-icon('/images/icons/056-rsvp-needed-green@2x.png');
+  }
+
+  &.annual {
+    @include event-card-icon('/images/icons/050-annual-event-icon-green@2x.png');
   }
 }

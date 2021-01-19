@@ -7,3 +7,8 @@
   vertical-align: bottom;
   width: 20px;
 }
+
+@mixin event-card-icon($image) {
+  background: url($image) right 2rem top 2rem no-repeat;
+  background-size: 5rem 5rem;
+}
