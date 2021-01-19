@@ -1,0 +1,9 @@
+@mixin select-icon($image) {
+  background: url($image) no-repeat 0 0/20px 20px;
+  content: '';
+  display: inline-block;
+  height: 20px;
+  margin-right: 1rem;
+  vertical-align: bottom;
+  width: 20px;
+}

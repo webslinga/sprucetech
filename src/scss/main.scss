@@ -1,6 +1,6 @@
 @import 'modules/variables';
 @import 'modules/bootstrap';
-//@import 'modules/mixins';
+@import 'modules/mixins';
 
 @font-face {
 font-family: 'Selawik Regular';
@@ -95,5 +95,6 @@ h4 {
 @import 'modules/forms';
 @import 'modules/hero';
 @import 'modules/carousel';
+@import 'modules/month-select';
 @import 'modules/engagement';
 @import 'modules/footer';

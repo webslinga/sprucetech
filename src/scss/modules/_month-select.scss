@@ -1,0 +1,60 @@
+.month-select {
+  overflow: hidden;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  white-space: nowrap;
+
+  ul {
+    list-style-type: none;
+    margin-left: -166rem;
+
+    li {
+      display: inline-block;
+      font-size: 8rem;
+      margin: auto 4rem;
+      text-transform: uppercase;
+
+      &.active {
+
+        a {
+          border-bottom: .6rem solid $primary-green;
+          border-top: .6rem solid $primary-green;
+          opacity: 1;
+        }
+
+        &::before {
+          background: url('/images/icons/012-small-arrow-left-blue@2x.png');
+          content: '';
+          cursor: pointer;
+          display: inline-block;
+          height: 4.6rem;
+          margin-right: 4rem;
+          vertical-align: .5rem;
+          width: 2.6rem;
+        }
+
+        &::after {
+          background: url('/images/icons/004-small-arrow-right-blue@2x.png');
+          content: '';
+          cursor: pointer;
+          display: inline-block;
+          height: 4.6rem;
+          margin-left: 4rem;
+          vertical-align: .5rem;
+          width: 2.6rem;
+        }
+      }
+
+      a {
+        color: $primary-blue;
+        opacity: .2;
+        text-decoration: none;
+
+        &:hover {
+          color: $secondary-blue;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

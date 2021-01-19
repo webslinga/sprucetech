@@ -182,6 +182,103 @@
         </div>
       </div>
 
+      <div class="content-block">
+        <div class="month-select">
+          <div class="container-lg">
+            <ul>
+              <li>
+                <a href="#">January</a>
+              </li>
+              <li>
+                <a href="#">February</a>
+              </li>
+              <li>
+                <a href="#">March</a>
+              </li>
+              <li>
+                <a href="#">April</a>
+              </li>
+              <li class="active">
+                <a href="#">May</a>
+              </li>
+              <li>
+                <a href="#">June</a>
+              </li>
+              <li>
+                <a href="#">July</a>
+              </li>
+              <li>
+                <a href="#">August</a>
+              </li>
+              <li>
+                <a href="#">September</a>
+              </li>
+              <li>
+                <a href="#">October</a>
+              </li>
+              <li>
+                <a href="#">November</a>
+              </li>
+              <li>
+                <a href="#">December</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container-lg">
+
+          <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+
+              <div class="row">
+                <div class="col-6">
+                  <h2>May 2020 Events</h2>
+                </div>
+                <div class="col-6 text-end">
+
+                  <form class="event-filter">
+                    <div class="row">
+                      <div class="col-10">
+                        <div class="multiselect">
+                          <div class="selectBox" onclick="showCheckboxes()">
+                            <select>
+                              <option>Filter by</option>
+                            </select>
+                            <div class="overSelect"></div>
+                          </div>
+                          <div id="checkboxes">
+                            <label for="annual">
+                              <span class="filter-annual">Annual Event</span> <input type="checkbox" id="annual" />
+                            </label>
+                            <label for="paid">
+                              <span class="paid-annual">Paid Event</span> <input type="checkbox" id="paid" />
+                            </label>
+                            <label for="free">
+                              <span class="free-annual">Free Event</span> <input type="checkbox" id="free" />
+                            </label>
+                            <label for="rsvp">
+                              <span class="rsvp-annual">RSVP Needed</span> <input type="checkbox" id="rsvp" />
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-2">
+                        <button class="filter-button" type="button" name="button"></button>
+                      </div>
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="col-1"></div>
+          </div>
+
+        </div>
+      </div>
     </main>
 
     <!-- Footer Content -->
@@ -267,5 +364,20 @@
 
     <script src="/js/jquery.min.js" charset="utf-8"></script>
     <script src="/js/bootstrap.min.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+      let expanded = false;
+
+      function showCheckboxes() {
+        let checkboxes = document.getElementById("checkboxes");
+        if (!expanded) {
+          checkboxes.style.display = "block";
+          expanded = true;
+        } else {
+          checkboxes.style.display = "none";
+          expanded = false;
+        }
+      }
+    </script>
   </body>
 </html>
