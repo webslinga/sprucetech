@@ -23,7 +23,7 @@
         }
 
         &::before {
-          background: url('/images/icons/012-small-arrow-left-blue@2x.png');
+          background: url('/images/icons/012-small-arrow-left-blue@2x.png') no-repeat;
           content: '';
           cursor: pointer;
           display: inline-block;
@@ -34,7 +34,7 @@
         }
 
         &::after {
-          background: url('/images/icons/004-small-arrow-right-blue@2x.png');
+          background: url('/images/icons/004-small-arrow-right-blue@2x.png') no-repeat;
           content: '';
           cursor: pointer;
           display: inline-block;
