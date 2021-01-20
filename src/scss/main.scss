@@ -90,6 +90,22 @@ h4 {
   font-family: 'Selawik Regular';
 }
 
+.paid {
+  @include event-card-icon('/images/icons/052-paid-event-icon-green@2x.png');
+}
+
+.free {
+  @include event-card-icon('/images/icons/054-free-event-green@2x.png');
+}
+
+.rsvp {
+  @include event-card-icon('/images/icons/056-rsvp-needed-green@2x.png');
+}
+
+.annual {
+  @include event-card-icon('/images/icons/050-annual-event-icon-green@2x.png');
+}
+
 @import 'modules/breakpoint-styles';
 @import 'modules/navigation';
 @import 'modules/forms';
