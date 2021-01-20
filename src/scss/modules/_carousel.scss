@@ -48,5 +48,23 @@
         color: $white;
       }
     }
+
+    .directions-link {
+      &:hover {
+        color: $primary-green;
+        text-decoration: none;
+      }
+      &::after {
+        background: url('/images/icons/005-small-arrow-right-green@2x.png') no-repeat;
+        background-size: contain;
+        content: '';
+        cursor: pointer;
+        display: inline-block;
+        height: 1.8rem;
+        margin-left: .4rem;
+        vertical-align: -0.3rem;
+        width: 2rem;
+      }
+    }
   }
 }

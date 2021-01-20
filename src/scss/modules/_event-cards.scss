@@ -21,7 +21,10 @@
   }
 
   .learn-more-link {
-    display: inline-block;
+    &:hover {
+      color: $primary-green;
+      text-decoration: none;
+    }
 
     &::after {
       background: url('/images/icons/005-small-arrow-right-green@2x.png') no-repeat;
