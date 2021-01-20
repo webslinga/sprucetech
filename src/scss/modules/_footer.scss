@@ -2,10 +2,12 @@
   background-color: $primary-blue;
 }
 
+.newsletter-form {
+  margin-left: 2rem;
+}
 .footer-block {
   border-top: .5rem solid $primary-green;
-  padding-top: 6rem;
-  padding-bottom: 12rem;
+  padding: 6rem 2rem 12rem;
 
   h2 {
     margin-bottom: 4rem;

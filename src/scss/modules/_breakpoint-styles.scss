@@ -23,6 +23,21 @@
       }
     }
   }
+
+  .hero-block {
+    h1 {
+      margin: 12rem 0 !important;
+    }
+  }
+
+  .newsletter-form {
+    margin-left: 0 !important;
+  }
+
+  .footer-block {
+    padding: 6rem 0 12rem !important;
+  }
+
 }
 
 @include media-breakpoint-up(xxl) {
