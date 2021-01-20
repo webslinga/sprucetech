@@ -7,6 +7,14 @@
   padding-top: 6rem;
   padding-bottom: 12rem;
 
+  h2 {
+    margin-bottom: 4rem;
+
+    span {
+      border-top: .4rem solid $primary-green;
+    }
+  }
+
   & > div:first-child {
     border-bottom: 1px solid $white;
   }
